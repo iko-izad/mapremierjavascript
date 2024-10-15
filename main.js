@@ -18,5 +18,4 @@ let metier = "politicien" ;
 
 let quartier2 = "M'tsamboro";
 alert(quartier2);
-fonction(x)
-trouvermonnom()
+

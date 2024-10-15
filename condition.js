@@ -11,7 +11,7 @@ let note = 12
 
 // Je veux vérifier si la personne est majeure
 if(note == 12) {
-    alert("Assez bien");
+   
 }
 
 // Je veux vérifier si la personne est mineure
@@ -32,5 +32,31 @@ if(note == 15) {
     "bien";
 
 }
+
+
+let note1 = 10;
+if(note > 10){
+   console.log("Bravo vous etres admis")
+}
+// On définit l'âge de l'utilisateur
+// Vous pouvez changer cette valeur pour tester différents scénarios
+let ageUtilisateur = 12;
+// On vérifie l'âge de l'utilisateur et on recommande un film en conséquence
+
+// Si l'utilisateur a moins de 13 ans
+if (ageUtilisateur < 13) {
+  console.log("Le Roi Lion");
+}  // Si l'utilisateur a entre 13 et 17 ans inclus
+if (ageUtilisateur > 13 && ageUtilisateur < 18) {
+  console.log("Titanic");
+} else {
+   // Si l'utilisateur a 18 ans ou plus
+  console.log("Rambo 2");
+}
+
+
+
+
+
 
 
