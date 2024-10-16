@@ -14,19 +14,22 @@ console.log(affichageTotaLlivres,totalLivres);
 
 
 
-// 1. Initialisation de la variable totalLivres
-let totalLivres1 = 500;
+// Définition du nouveau film
+let filmKoungou = {
+    nom: "Koungou",
+    salle: 10,
+    prix: 20.50
+  };
+// Déclaration d'une fonction 'delivrerBillet' qui prend un paramètre 'filmKoungou'
+let delivrerBillet = (filmKoungou); {
+    // Affiche un message indiquant que le billet est prêt
+    console.log("Voici votre billet");
+   // Affiche le nom du film en utilisant la propriété 'nom' de l'objet 'filmKoungou'
+    console.log("Film : " + filmKoungou.nom);
 
-// Simulons des opérations pour modifier totalLivres
-totalLivres -= 100; // 100 billets vendus
-totalLivres += 50;  // 50 billets ajoutés pour la prochaine séance
-totalLivres -= 20;  // 20 billets réservés
-
-// 2. Vérification du résultat avec console.log
-console.log("Total de livres après opérations : " + totalLivres);
-
-// 3. Création de la variable affichageTotalLivres
-let affichageTotalLivres = totalLivres;
-
-// 4. Affichage du résultat final
-console.log("Nombre total de billets disponibles pour le film Koungou : " + affichageTotalLivres);
+    console.log("Salle : " + filmKoungou.salle);
+     // Affiche le prix du billet en utilisant la propriété 'prix' de l'objet 'filmKoungou'
+    console.log("Prix : " + filmKoungou.prix + " euros");
+     // Affiche un message d'encouragement pour le film
+    console.log("Bon film !");
+  }

@@ -40,17 +40,21 @@ if(note > 10){
 }
 // On définit l'âge de l'utilisateur
 // Vous pouvez changer cette valeur pour tester différents scénarios
-let ageUtilisateur = 12;
+let ageUtilisateur = 30;
 // On vérifie l'âge de l'utilisateur et on recommande un film en conséquence
 
 // Si l'utilisateur a moins de 13 ans
 if (ageUtilisateur < 13) {
+   /* affiche Le Roi Lion */
   console.log("Le Roi Lion");
 }  // Si l'utilisateur a entre 13 et 17 ans inclus
-if (ageUtilisateur > 13 && ageUtilisateur < 18) {
+if (ageUtilisateur > 13 === ageUtilisateur < 18) {
+   /* affiche Titanic */
   console.log("Titanic");
-} else {
+} 
    // Si l'utilisateur a 18 ans ou plus
+if (ageUtilisateur > 18){
+   /* affiche Rambo 2 */
   console.log("Rambo 2");
 }
 
