@@ -32,13 +32,16 @@ while(numero < 9){ // Tant que la valeur de la variable numero est plus petit qu
  // Utiliser la boucle FOR pour manipuler un tableau
  let tableauEleves = ["Fazati","Dominique jean","Faiz","Said","Nicia","Izad","Thouaibat"];
 
+ console.log("Nombre d'élements dans nom tableau : ", tableauEleves.length.toExponential);// Elle peut prendre un argument optionnel qui précise le nombre de chiffres après la virgule.
  //
  console.log(tableauEleves[0]);
  console.log(tableauEleves[1]);
  console.log(tableauEleves[2]);
 
  console.log("=== AVANT la boucle FOR ===");
- for(let i = 0; i < tableauEleves.length; i++) {
+ for(let i = 0; i < tableauEleves.length; i++) { // 'i++' est la raccourci de 'i = i+1'
+/* condition qui permet à la boucle de continuer tant que i est inférieur à la longueur du tableau tableauEleves.
+ Cela évite de dépasser les limites du tableau.*/
+   console.log(tableauEleves[i]);
 
-    console.log(tableauEleves[i]);
  }
